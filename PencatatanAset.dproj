@@ -102,38 +102,30 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="C:\Users\noorw\ProjectDelphi\vclcrud\UMain.pas">
+        <DCCReference Include="UMain.pas">
             <Form>FMain</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="C:\Users\noorw\ProjectDelphi\vclcrud\Lib\UInduk.pas">
+        <DCCReference Include="Lib\UInduk.pas">
             <Form>fInduk</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="C:\Users\noorw\ProjectDelphi\vclcrud\Lib\UDM.pas">
+        <DCCReference Include="Lib\UDM.pas">
             <Form>DM</Form>
-            <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAkun.pas">
+        <DCCReference Include="UKategoriAkun.pas">
             <Form>fKategoriAkun</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAsetTetap.pas">
+        <DCCReference Include="UKategoriAsetTetap.pas">
             <Form>fKategoriAsetTetap</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="C:\Users\noorw\ProjectDelphi\vclcrud\UAsetAktif.pas">
+        <DCCReference Include="UAsetAktif.pas">
             <Form>fAsetAktif</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="C:\Users\noorw\ProjectDelphi\vclcrud\UDaftarAkunSaldo.pas">
+        <DCCReference Include="UDaftarAkunSaldo.pas">
             <Form>fDaftarAkunSaldo</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="C:\Users\noorw\ProjectDelphi\vclcrud\UTambahAset.pas">
+        <DCCReference Include="UTambahAset.pas">
             <Form>fTambahAset</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

@@ -1,0 +1,42 @@
+unit UDaftarAkunSaldo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UInduk, Data.DB, Vcl.Menus,
+  System.Actions, Vcl.ActnList, MemDS, DBAccess, Uni, Vcl.Grids, Vcl.DBGrids,
+  Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfDaftarAkunSaldo = class(TfInduk)
+    procedure TampilDataExecute(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fDaftarAkunSaldo: TfDaftarAkunSaldo;
+
+implementation
+
+{$R *.dfm}
+
+uses UDM;
+
+procedure TfDaftarAkunSaldo.TampilDataExecute(Sender: TObject);
+begin
+  inherited;
+  with UniStoredProc1 do
+  begin
+    SQL.Clear;
+    CreateProcCall('sp_tbl_daftar_akun_saldo_view');
+    ExecProc;
+  end;
+  { FitGrid }
+  dm.FitGrid(DBGrid1);
+end;
+
+end.

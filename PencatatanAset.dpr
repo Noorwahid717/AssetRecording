@@ -2,14 +2,14 @@ program PencatatanAset;
 
 uses
   Vcl.Forms,
-  UMain in 'C:\Users\noorw\ProjectDelphi\vclcrud\UMain.pas' {FMain},
-  UInduk in 'C:\Users\noorw\ProjectDelphi\vclcrud\Lib\UInduk.pas' {fInduk},
-  UDM in 'C:\Users\noorw\ProjectDelphi\vclcrud\Lib\UDM.pas' {DM: TDataModule},
-  UKategoriAkun in 'C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAkun.pas' {fKategoriAkun},
-  UKategoriAsetTetap in 'C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAsetTetap.pas' {fKategoriAsetTetap},
-  UAsetAktif in 'C:\Users\noorw\ProjectDelphi\vclcrud\UAsetAktif.pas' {fAsetAktif},
-  UDaftarAkunSaldo in 'C:\Users\noorw\ProjectDelphi\vclcrud\UDaftarAkunSaldo.pas' {fDaftarAkunSaldo},
-  UTambahAset in 'C:\Users\noorw\ProjectDelphi\vclcrud\UTambahAset.pas' {fTambahAset};
+  UMain in 'F:\project\AssetRecording\UMain.pas' {FMain},
+  UInduk in 'F:\project\AssetRecording\Lib\UInduk.pas' {fInduk},
+  UDM in 'F:\project\AssetRecording\Lib\UDM.pas' {DM: TDataModule},
+  UKategoriAkun in 'F:\project\AssetRecording\UKategoriAkun.pas' {fKategoriAkun},
+  UKategoriAsetTetap in 'F:\project\AssetRecording\UKategoriAsetTetap.pas' {fKategoriAsetTetap},
+  UAsetAktif in 'F:\project\AssetRecording\UAsetAktif.pas' {fAsetAktif},
+  UDaftarAkunSaldo in 'F:\project\AssetRecording\UDaftarAkunSaldo.pas' {fDaftarAkunSaldo},
+  UTambahAset in 'F:\project\AssetRecording\UTambahAset.pas' {fTambahAset};
 
 {$R *.res}
 
