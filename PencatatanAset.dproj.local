@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/31 22:02:51.000.674,=C:\Users\Misbah\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/16 20:02:59.000.765,=C:\Users\Misbah\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 19:53:45.000.721,=C:\Users\Misbah\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 19:54:56.000.113,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.dfm=C:\Users\Misbah\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/11/17 19:54:56.000.113,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas=C:\Users\Misbah\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 19:55:05.000.464,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\VCLCRUD.dproj=C:\Users\Misbah\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/11/17 19:55:14.000.187,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\UMain.pas=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 19:55:14.000.187,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\UMain.dfm=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.dfm</Transaction>
+    <Transaction>2021/11/17 20:00:08.000.348,=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 20:03:31.000.304,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Lib\UInduk.pas=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 20:03:31.000.304,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Lib\UInduk.dfm=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.dfm</Transaction>
+    <Transaction>2021/11/17 20:05:00.000.426,=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 20:06:45.000.209,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Lib\UDM.pas=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 20:06:45.000.209,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Lib\UDM.dfm=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.dfm</Transaction>
+    <Transaction>2021/11/17 20:08:22.000.920,=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 20:11:59.000.698,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\UJenisBarang.pas=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 20:11:59.000.698,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\UJenisBarang.dfm=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.dfm</Transaction>
+    <Transaction>2021/11/17 20:43:45.000.868,=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 20:44:15.000.198,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\UBarang.pas=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 20:44:15.000.198,D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\UBarang.dfm=D:\Work\2021\Uniwa\GENAP\Pemrograman Visual\VCLCrud\Unit1.dfm</Transaction>
+    <Transaction>2021/11/30 19:37:49.000.904,C:\Users\noorw\ProjectDelphi\vclcrud\UBarang.dfm=C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAsetTetap.dfm</Transaction>
+    <Transaction>2021/11/30 19:37:49.000.904,C:\Users\noorw\ProjectDelphi\vclcrud\UBarang.pas=C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAsetTetap.pas</Transaction>
+    <Transaction>2021/11/30 19:40:51.000.876,C:\Users\noorw\ProjectDelphi\vclcrud\UJenisBarang.pas=C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAkunTransaksi.pas</Transaction>
+    <Transaction>2021/11/30 19:40:51.000.876,C:\Users\noorw\ProjectDelphi\vclcrud\UJenisBarang.dfm=C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAkunTransaksi.dfm</Transaction>
+    <Transaction>2021/11/30 19:44:50.000.849,=C:\Users\noorw\ProjectDelphi\vclcrud\Unit1.pas</Transaction>
+    <Transaction>2021/11/30 19:45:13.000.552,C:\Users\noorw\ProjectDelphi\vclcrud\Unit1.dfm=C:\Users\noorw\ProjectDelphi\vclcrud\UAsetTetap.dfm</Transaction>
+    <Transaction>2021/11/30 19:45:13.000.552,C:\Users\noorw\ProjectDelphi\vclcrud\Unit1.pas=C:\Users\noorw\ProjectDelphi\vclcrud\UAsetTetap.pas</Transaction>
+    <Transaction>2021/12/01 11:32:24.000.879,C:\Users\noorw\ProjectDelphi\vclcrud\UAsetTetap.dfm=C:\Users\noorw\ProjectDelphi\vclcrud\UAsetAktif.dfm</Transaction>
+    <Transaction>2021/12/01 11:32:24.000.879,C:\Users\noorw\ProjectDelphi\vclcrud\UAsetTetap.pas=C:\Users\noorw\ProjectDelphi\vclcrud\UAsetAktif.pas</Transaction>
+    <Transaction>2021/12/01 11:33:37.000.249,=C:\Users\noorw\ProjectDelphi\vclcrud\Unit1.pas</Transaction>
+    <Transaction>2021/12/01 11:33:49.000.953,C:\Users\noorw\ProjectDelphi\vclcrud\Unit1.pas=C:\Users\noorw\ProjectDelphi\vclcrud\UDaftarAkunSaldo.pas</Transaction>
+    <Transaction>2021/12/01 11:33:49.000.953,C:\Users\noorw\ProjectDelphi\vclcrud\Unit1.dfm=C:\Users\noorw\ProjectDelphi\vclcrud\UDaftarAkunSaldo.dfm</Transaction>
+    <Transaction>2021/12/01 11:34:33.000.420,C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAkunTransaksi.pas=C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAkun.pas</Transaction>
+    <Transaction>2021/12/01 11:34:33.000.420,C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAkunTransaksi.dfm=C:\Users\noorw\ProjectDelphi\vclcrud\UKategoriAkun.dfm</Transaction>
+    <Transaction>2021/12/01 18:00:32.000.945,=C:\Users\noorw\ProjectDelphi\vclcrud\Unit1.pas</Transaction>
+    <Transaction>2021/12/01 18:18:47.000.507,C:\Users\noorw\ProjectDelphi\vclcrud\UTambahAset.pas=C:\Users\noorw\ProjectDelphi\vclcrud\Unit1.pas</Transaction>
+    <Transaction>2021/12/01 18:18:47.000.507,C:\Users\noorw\ProjectDelphi\vclcrud\UTambahAset.dfm=C:\Users\noorw\ProjectDelphi\vclcrud\Unit1.dfm</Transaction>
+    <Transaction>2021/12/01 19:09:57.000.150,F:\project\ProjectDelphi\PencatatanAset.dproj=C:\Users\noorw\ProjectDelphi\vclcrud\VCLCRUD.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
