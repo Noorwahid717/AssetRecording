@@ -47,16 +47,38 @@ uses UDM, UTambahAset;
 procedure TfAsetAktif.btnTambahClick(Sender: TObject);
 begin
   inherited;
-    begin
+
       if Application.FindComponent('fTambahAset') = nil then
       begin
         Application.CreateForm(TfTambahAset, fTambahAset);
-        fTambahAset.Show;
+        fTambahAset.ShowModal;
+
+        if fTambahAset.ModalResult = mrOk then
+        begin
+          with dm.UniStoredProc1 do
+            begin
+              SQL.Clear;
+              CreateProcCall('sp_tbl_aset_aktif_insert');
+              ParamByName('pKode').AsString := fTambahAset.Kode.Text;
+              ParamByName('pNama').AsString := fTambahAset.Nama.Text;
+              ParamByName('pKode_kategori_aset').AsString := fTambahAset.QKategoriAsetKode.AsString;
+              ParamByName('pTanggal').AsString := FormatDateTime('yyyy-mm-dd', fTambahAset.DateTimePicker1.Date);
+              ParamByName('pBiaya_akuisisi').AsString := fTambahAset.BiayaAkuisisi.Text;
+              ParamByName('pKode_kategori_saldo').AsString := fTambahAset.QKategoriAkunKode.AsString;
+              ParamByName('pDeskripsi').AsString := fTambahAset.Deskripsi.Text;
+              Execute;
+              { message }
+              MessageDlg('Data Berhasil disimpan', TMsgDlgType.mtInformation, [TMsgDlgBtn.mbYes], 0);
+
+              ShowMessage(SQL.Text);
+
+            end;
+
+            fTambahAset.Close;
+        end;
+
       end
-      else
-        fTambahAset.BringToFront;
-      fTambahAset.Show;
-    end;
+      else fTambahAset.ShowModal;
 end;
 
 procedure TfAsetAktif.TampilDataExecute(Sender: TObject);

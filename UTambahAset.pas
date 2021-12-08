@@ -4,22 +4,37 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Data.DB,
+  MemDS, DBAccess, Uni, Vcl.DBCtrls, Vcl.ComCtrls;
 
 type
   TfTambahAset = class(TForm)
     Panel1: TPanel;
     Panel2: TPanel;
     Kode: TLabeledEdit;
-    Deskripsi: TLabeledEdit;
-    KodeKategoriSaldo: TLabeledEdit;
-    KodeKategoriAset: TLabeledEdit;
-    BiayaAkuisisi: TLabeledEdit;
-    TanggalAkuisisi: TLabeledEdit;
     Nama: TLabeledEdit;
+    ListKategoriAset: TDBLookupComboBox;
+    DateTimePicker1: TDateTimePicker;
     btnBatal: TButton;
     btnSimpan: TButton;
+    QKategoriAset: TUniQuery;
+    dsKategoriAset: TDataSource;
+    QKategoriAsetKode: TStringField;
+    QKategoriAsetNama: TStringField;
+    BiayaAkuisisi: TLabeledEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    ListKategoriAkun: TDBLookupComboBox;
+    QKategoriAkun: TUniQuery;
+    dsKategoriAkun: TDataSource;
+    QKategoriAkunKode: TStringField;
+    QKategoriAkunNama: TStringField;
+    Label3: TLabel;
+    Deskripsi: TLabeledEdit;
+
     procedure btnSimpanClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure btnBatalClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,33 +48,20 @@ implementation
 
 {$R *.dfm}
 
-uses UDM;
+
+procedure TfTambahAset.btnBatalClick(Sender: TObject);
+begin
+  Close;
+end;
 
 procedure TfTambahAset.btnSimpanClick(Sender: TObject);
 begin
-  try
-    with dm.UniStoredProc1 do
-    begin
-      SQL.Clear;
-      CreateProcCall('sp_tbl_aset_aktif_insert');
-      ParamByName('pKode').AsString := Kode.Text;
-      ParamByName('pNama').AsString := Nama.Text;
-      ParamByName('pKode_kategori_aset').AsString := KodeKategoriAset.Text;
-      ParamByName('pTanggal').AsString := TanggalAkuisisi.Text;
-      ParamByName('pBiaya_akuisisi').AsString := BiayaAkuisisi.Text;
-      ParamByName('pKode_kategori_saldo').AsString := KodeKategoriSaldo.Text;
-      ParamByName('pDeskripsi').AsString := Deskripsi.Text;
-      Execute;
-      { message }
-      MessageDlg('Data Berhasil disimpan', TMsgDlgType.mtInformation, [TMsgDlgBtn.mbYes], 0);
-      { Refresh }
+  ModalResult  := mrOk
+end;
 
-    end;
-    Close;
-  except
-    on E: Exception do
-      ShowMessage(E.Message);
-  end;
+procedure TfTambahAset.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := TCloseAction.caFree;
 end;
 
 end.
